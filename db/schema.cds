@@ -5,6 +5,7 @@ namespace riskmanagement;
  key ID : UUID @(Core.Computed : true);
  title : String(100);
  owner : String;
+ text : String;
  prio : String(5);
  descr : String;
  miti : Association to Mitigations;
