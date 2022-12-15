@@ -67,7 +67,7 @@ resources:
         oauth2-configuration: # <-- add this
           redirect-uris:
             # example: - https://risk-management-approuter.cfapps.eu10-004.hana.ondemand.com/login/callback
-            - https://a9930f8atrial-dev-risk-management.cfapps.us10-001.hana.ondemand.com//login/callback
+            - https://a9930f8atrial-dev-risk-management.cfapps.us10-001.hana.ondemand.com/login/callback
         role-collections:
           - name: "RiskManager-${space}"
             description: Manage Risks
